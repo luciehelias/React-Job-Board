@@ -1,0 +1,70 @@
+h1 {
+  text-align: center;
+  font-weight: 500;
+  color: white;
+}
+
+h2 {
+  font-weight: 300;
+  color: black;
+}
+
+.containerFooter span {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.containerHeader {
+  background-color: #333333;
+  padding: 20px;
+  font-size: 40px;
+  margin: 20px;
+}
+
+.containerFooter {
+  background-color: #dddddd;
+  padding: 20px;
+  font-size: 18px;
+  margin: 20px;
+  text-align: center;
+}
+
+.containerJobs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.containerJob {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  margin: 20px;
+  padding: 10px;
+}
+
+.containerJob h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.containerJob p {
+  font-size: 16px;
+}
+
+.information {
+  display: flex;
+}
+
+.color1 {
+  color: red;
+}
