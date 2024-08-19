@@ -2,7 +2,7 @@ const Header = () => {
   return (
     <>
       <div className="containerHeader">
-        <h1> The job board</h1>
+        <h1> The Job Board</h1>
       </div>
     </>
   );
